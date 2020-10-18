@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/MariaFun/Choropleth/main/map/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/mariafun/Choropleth/main/map/ne_110m_admin_0_countries.topojson",
     "format": {
           "type": "topojson",
           "feature": "ne_110m_admin_0_countries"
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/MariaFun/Choropleth/main/data/covid_10_10_2020.csv"
+          "url": "https://raw.githubusercontent.com/mariafun/Choropleth/main/data/covid_10_10_2020.csv"
         },
         "key": "Country",
         "fields": ["Active"]
